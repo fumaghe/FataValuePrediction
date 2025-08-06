@@ -77,7 +77,7 @@ def main() -> None:
 
     # 7) POST-PROCESS & EXPORT (filtra Serie A SOLO qui)
     out_df = combined[combined.season == args.predict_season].copy()
-    out_df = out_df[out_df["tournament_name"] == "Serie A"]
+    # out_df = out_df[out_df["tournament_name"] == "Serie A"]
     out_df = postprocess(out_df,
                          bonus_mode=args.bonus_mode,
                          round_stats=args.round_stats)
