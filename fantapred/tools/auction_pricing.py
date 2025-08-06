@@ -30,13 +30,13 @@ SCORE_SCALE = 1.7
 
 # ---- Slot di rosa e budget medio slot titolare ------------------- #
 ROLE_SLOTS = {"P": 3, "D": 8, "C": 8, "A": 6}
-AVG_SLOT   = {"P": 13, "D": 18, "C": 25, "A": 62}   # crediti medi per slot TIT
+AVG_SLOT   = {"P": 16, "D": 30, "C": 25, "A": 60}   # crediti medi per slot TIT
 
 # ---- Limiti e forma della curva prezzo --------------------------- #
-CAP_ROLE = {"P": 55, "D": 60, "C": 70, "A": 200}   # hard-cap
-FREE_PERC = {"P": 0.25, "D": 0.15, "C": 0.12, "A": 0.08}   # quota 1 credito
+CAP_ROLE = {"P": 55, "D": 60, "C": 70, "A": 220}     # hard-cap
+FREE_PERC = 0.10                                     # quota 1 credito
 P_LOW, P_HIGH = 5, 95                                # percentili normalizzazione
-SHARP_R = {"P": 1.5, "D": 1.9, "C": 1.2, "A": 1.1}   # esponenti curva
+SHARP_R = {"P": 1.5, "D": 1.3, "C": 1.5, "A": 1.5}   # esponenti curva
 
 # ---- Disponibilità (starts / presenze) --------------------------- #
 MAX_MATCHES = 38                 # partite di campionato
@@ -50,7 +50,7 @@ AVAIL_K2    = 0.7                # ampiezza (→ max = K1 + K2)
 TEAM_ROLE_SCORE_25_26 = {
     # Top 4 “powerhouse”: +20/+25/+15/+20
     "Inter":      {"P": (0.20,0), "D": (0.25,0), "C": (0.15,0), "A": (0.20,0)},
-    "AC Milan":   {"P": (0.25,0), "D": (0.25,0), "C": (0.15,0), "A": (0.20,0)},
+    "AC Milan":   {"P": (0.20,0), "D": (0.25,0), "C": (0.15,0), "A": (0.20,0)},
     "Juventus":   {"P": (0.20,0), "D": (0.20,0), "C": (0.15,0), "A": (0.18,0)},
     "Napoli":     {"P": (0.20,0), "D": (0.20,0), "C": (0.18,0), "A": (0.20,0)},
 
@@ -155,7 +155,7 @@ def price_for_role(df_in: pd.DataFrame, role: str, teams: int) -> pd.DataFrame:
     # 3. Ultimi FREE_PERC slot a 1 credito
     df["price"] = df["price"].clip(lower=1)
     df = df.sort_values("price", ascending=False).reset_index(drop=True)
-    n_free = min(math.floor(slots_tot * FREE_PERC[role]), len(df) - 1)
+    n_free = min(math.floor(slots_tot * FREE_PERC), len(df) - 1)
     if n_free:
         df.iloc[-n_free:, df.columns.get_loc("price")] = 1
 
