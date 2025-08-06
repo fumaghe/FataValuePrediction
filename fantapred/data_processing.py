@@ -41,6 +41,8 @@ ADDITIVE_COLS = {
     "gf",
     "assist",
     "clean_sheet",
+    "presenze",
+    "starts_eleven",
     "shots",
     "xg",
     "xg_on_target",
