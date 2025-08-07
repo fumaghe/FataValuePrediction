@@ -135,10 +135,6 @@ def load_slug_to_link_map(csv_path: str) -> Dict[str, str]:
 # Core
 # =========================================
 def fetch_wages_players(url: str) -> List[dict]:
-    """
-    Scarica la pagina 'Player Wages' e ritorna una lista di dict:
-      { 'name': ..., 'link_player_page': (str|''), 'slug': ..., 'player_id': (str|'') }
-    """
     scraper = cloudscraper.create_scraper()
     resp = scraper.get(url, timeout=30)
     resp.raise_for_status()
@@ -156,6 +152,7 @@ def fetch_wages_players(url: str) -> List[dict]:
         if row.get("class") and ("thead" in row.get("class") or "over_header" in row.get("class")):
             continue
 
+        # player
         cell = row.find("td", {"data-stat": "player"})
         if not cell:
             continue
@@ -173,16 +170,32 @@ def fetch_wages_players(url: str) -> List[dict]:
             continue
 
         player_id = extract_player_id_from_url(link_player_page)
-        players.append(
-            {
-                "name": name,
-                "link_player_page": link_player_page,
-                "slug": slugify(name),
-                "player_id": player_id,
-            }
-        )
 
-    # rimuovi eventuali duplicati per slug mantenendo il primo
+        # team
+        team_cell = row.find("td", {"data-stat": "team"})
+        if team_cell:
+            team_link_tag = team_cell.find("a")
+            if team_link_tag:
+                team = team_link_tag.text.strip()
+                team_link = "https://fbref.com" + team_link_tag.get("href", "")
+            else:
+                team = team_cell.get_text(strip=True)
+                team_link = ""
+        else:
+            team = ""
+            team_link = ""
+
+        players.append({
+            "name": name,
+            "link_player_page": link_player_page,
+            "slug": slugify(name),
+            "player_id": player_id,
+            "team": team,
+            "team_link": team_link,
+            "tournament_name_new" : "Serie A",
+        })
+
+    # rimuovi duplicati come prima...
     seen = set()
     unique_players = []
     for p in players:
@@ -216,7 +229,7 @@ def main():
         slug_to_link = load_slug_to_link_map(BIG5_LINKS_CSV)
         players = enrich_missing_links_and_ids(players, slug_to_link)
 
-        df = pd.DataFrame(players, columns=["name", "link_player_page", "slug", "player_id"])
+        df = pd.DataFrame(players, columns=["name", "link_player_page", "slug", "player_id", "team", "tournament_name_new"])
         df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
         print(f"Salvati {len(df)} giocatori in '{OUTPUT_CSV}'.")
         missing_links = (df["link_player_page"] == "").sum()
