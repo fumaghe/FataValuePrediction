@@ -30,13 +30,13 @@ SCORE_SCALE = 1.7
 
 # ---- Slot di rosa e budget medio slot titolare ------------------- #
 ROLE_SLOTS = {"P": 3, "D": 8, "C": 8, "A": 6}
-AVG_SLOT   = {"P": 16, "D": 30, "C": 25, "A": 60}   # crediti medi per slot TIT
+AVG_SLOT   = {"P": 16, "D": 18, "C": 20, "A": 70}   # crediti medi per slot TIT
 
 # ---- Limiti e forma della curva prezzo --------------------------- #
-CAP_ROLE = {"P": 55, "D": 60, "C": 70, "A": 220}     # hard-cap
+CAP_ROLE = {"P": 55, "D": 60, "C": 90, "A": 220}     # hard-cap
 FREE_PERC = 0.10                                     # quota 1 credito
 P_LOW, P_HIGH = 5, 95                                # percentili normalizzazione
-SHARP_R = {"P": 1.5, "D": 1.3, "C": 1.5, "A": 1.5}   # esponenti curva
+SHARP_R = {"P": 1.5, "D": 1.8, "C": 1.8, "A": 1.3}   # esponenti curva
 
 # ---- Disponibilità (starts / presenze) --------------------------- #
 MAX_MATCHES = 38                 # partite di campionato
@@ -92,7 +92,7 @@ TEAM_ROLE_SCORE = TEAM_ROLE_SCORE_25_26 if USE_SA_OVERRIDE else TEAM_ROLE_SCORE_
 def raw_score(r: pd.Series) -> float:
     """Bonus/malus ‘fantacalcistici’ in valore assoluto."""
     if r.role == "A":
-        return 3 * r.gf_pred + 1.5 * r.assist_pred + r.fmv_pred
+        return 5 * r.gf_pred + 1.5 * r.assist_pred + 4 * r.fmv_pred
     if r.role == "C":
         return 3 * r.gf_pred + 2 * r.assist_pred + r.fmv_pred
     if r.role == "D":
@@ -124,7 +124,7 @@ def availability_coef(starts: float, presenze: float) -> float:
         k_start = 0.60
     elif starts <= 15:
         k_start = 0.80
-    elif starts <= 24:
+    elif starts <= 23:
         k_start = 1.00
     else:
         k_start = 1.10

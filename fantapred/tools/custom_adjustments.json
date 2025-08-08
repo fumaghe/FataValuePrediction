@@ -1,0 +1,828 @@
+{
+  "luka-modric": {
+    "presenze_pred": 0.20,
+    "starts_pred": 0.1,
+    "gf_pred": -0.20,
+    "assist_pred": -0.15
+  },
+  "kevin-de-bruyne": {
+    "gf_pred": -0.20,
+    "assist_pred": -0.15
+  },
+  "mario-pasalic": {
+    "gf_pred": -0.40,
+    "assist_pred": -0.15
+  },
+  "ruben-loftus-cheek": {
+    "presenze_pred": 0.40,
+    "starts_pred": 0.6,
+    "gf_pred": 1.50,
+    "assist_pred": 1.90,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "christian-pulisic": {
+    "presenze_pred": 0.30,
+    "starts_pred": 0.4,
+    "gf_pred": 0.20,
+    "assist_pred": 0.20,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "riccardo-orsolini": {
+    "gf_pred": 0.20,
+    "assist_pred": 0.20,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "mattia-zaccagni": {
+    "presenze_pred": 0.20,
+    "starts_pred": 0.20,
+    "gf_pred": 0.20,
+    "assist_pred": 0.30,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "henrikh-mkhitaryan": {
+    "presenze_pred": -0.20,
+    "starts_pred": -0.20,
+    "gf_pred": -0.20,
+    "assist_pred": -0.20,
+    "mv_pred": 0.02,
+    "fmv_pred": -0.02
+  },
+  "scott-mctominay": {
+    "presenze_pred": 0.20,
+    "starts_pred": 0.20,
+    "gf_pred": 0.20,
+    "assist_pred": 3.70,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "kenan-yldz": {
+    "presenze_pred": 0.45,
+    "starts_pred": 0.9950,
+    "gf_pred": 0.20,
+    "assist_pred": 2.90,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.052
+  },
+  "alessandro-buongiorno": {
+    "presenze_pred": 0.850,
+    "starts_pred": 0.850,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05,
+    "gf_pred": 3.90,
+    "assist_pred": 0.15
+  },
+  "alex-jimenez": {
+    "presenze_pred": 0.850,
+    "starts_pred": 0.850,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05,
+    "gf_pred": 103.90,
+    "assist_pred": 4.15
+  },
+  "sam-beukema": {
+    "mv_pred": 0.02,
+    "fmv_pred": 0.02
+  },
+  "lautaro-martinez": {
+    "gf_pred": -0.15
+  },
+  "lucas-da-cunha": {
+    "gf_pred": -0.15
+  },
+  "giovanni-fabbian": {
+    "gf_pred": -0.55,
+    "fmv_pred": -0.07
+  },
+  "lewis-ferguson": {
+    "fmv_pred": -0.05,
+    "gf_pred": -0.65
+  },
+  "nico-paz": {
+    "presenze_pred": 0.45,
+    "starts_pred": 0.85,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.15,
+    "gf_pred": 2.40,
+    "assist_pred": 0.50
+  },
+  "albert-grnbk": {
+    "presenze_pred": 0.25,
+    "starts_pred": 0.25,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.10,
+    "gf_pred": 0.40,
+    "assist_pred": 0.40
+  },
+  "albert-gumundsson": {
+    "presenze_pred": 0.25,
+    "starts_pred": 0.25,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.10,
+    "gf_pred": 0.40,
+    "assist_pred": 0.40
+  },
+  "raoul-bellanova": {
+    "presenze_pred": 0.25,
+    "starts_pred": 0.25,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05,
+    "gf_pred": 30.40,
+    "assist_pred": 1.40
+  },
+  "juan-miranda": {
+    "presenze_pred": 0.90,
+    "starts_pred": 0.8,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05,
+    "gf_pred": 1.40,
+    "assist_pred": 1.60
+  },
+  "carlo-pinsoglio": {
+    "presenze_pred": -0.90,
+    "starts_pred": -0.90,
+    "mv_pred": -0.05,
+    "fmv_pred": 0.05,
+    "clean_sheet_pred": -0.90
+  },
+  "boris-radunovic": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95
+  },
+  "adrian-semper": {
+    "presenze_pred": -0.55,
+    "starts_pred": -0.55,
+    "clean_sheet_pred": -0.55
+  },
+  "pierluigi-gollini": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95
+  },
+  "pietro-terracciano": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95
+  },
+  "daniele-padelli": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95
+  },
+  "marco-sportiello": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95
+  },
+  "oliver-christensen": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95
+  },
+  "raffaele-di-gennaro": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "mv_pred": -0.065,
+    "clean_sheet_pred": -1
+  },
+  "josep-martinez": {
+    "presenze_pred": -0.45,
+    "starts_pred": -0.45,
+    "clean_sheet_pred": -0.75
+  },
+  "mattia-perin": {
+    "presenze_pred": -0.75,
+    "starts_pred": -0.75,
+    "clean_sheet_pred": -0.75
+  },
+  "christian-fruchtl": {
+    "presenze_pred": -0.75,
+    "starts_pred": -0.65,
+    "clean_sheet_pred": -0.95
+  },
+  "francesco-camarda": {
+    "presenze_pred": 13.45,
+    "starts_pred": 19.85,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.18,
+    "gf_pred": 22.40,
+    "assist_pred": 25.50
+  },
+  "roberto-piccoli": {
+    "presenze_pred": 0.45,
+    "starts_pred": 1.25,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.15,
+    "gf_pred": 1.0,
+    "assist_pred": 10.50
+  },
+  "giorgio-scalvini": {
+    "presenze_pred": 0.05,
+    "starts_pred": 0.05,
+    "mv_pred": 0.03,
+    "fmv_pred": 0.03,
+    "gf_pred": 0.6
+  },
+  "marco-palestra": {
+    "presenze_pred": 2.45,
+    "starts_pred": 2.45,
+    "mv_pred": 0.014,
+    "fmv_pred": 0.014
+  },
+  "odilon-kossounou": {
+    "presenze_pred": 0.25,
+    "starts_pred": 0.35,
+    "mv_pred": 0.03,
+    "fmv_pred": 0.03,
+    "gf_pred": 10.6
+  },
+  "rafael-leao": {
+    "gf_pred": 0.30,
+    "assist_pred": 0.30,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "nicolas-gonzalez": {
+    "presenze_pred": -0.65,
+    "starts_pred": -0.65,
+    "gf_pred": -0.60,
+    "assist_pred": -0.30,
+    "mv_pred": -0.05,
+    "fmv_pred": -0.06
+  },
+  "boulaye-dia": {
+    "mv_pred": 0.02,
+    "fmv_pred": 0.01
+  },
+  "andrea-cambiaso": {
+    "gf_pred": 0.40,
+    "assist_pred": 0.30,
+    "mv_pred": 0.01,
+    "fmv_pred": 0.03
+  },
+  "strahinja-pavlovic": {
+    "presenze_pred": 0.15,
+    "starts_pred": 0.15,
+    "gf_pred": 0.60,
+    "assist_pred": 0.30,
+    "mv_pred": 0.045,
+    "fmv_pred": 0.045
+  },
+  "ivan-provedel": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.25,
+    "clean_sheet_pred": 0.15,
+    "mv_pred": 0.025,
+    "fmv_pred": 0.17
+  },
+  "christos-mandas": {
+    "presenze_pred": 1.3,
+    "starts_pred": 1.25,
+    "clean_sheet_pred": 0.85
+  },
+  "armand-lauriente": {
+    "gf_pred": 0.50,
+    "assist_pred": 0.30,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.07
+  },
+  "matteo-tramoni": {
+    "gf_pred": 0.90,
+    "assist_pred": 1.20,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.07
+  },
+  "aaron-martin": {
+    "gf_pred": 15.90,
+    "assist_pred": 1.20,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "josh-doig": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.25,
+    "gf_pred": 0.20,
+    "assist_pred": 0.10,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.027
+  },
+  "angelino": {
+    "presenze_pred": 0.3,
+    "starts_pred": 0.25,
+    "gf_pred": 1.50,
+    "assist_pred": 0.20,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.037
+  },
+  "nicolas-andrade": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -1
+  },
+  "santiago-gimenez": {
+    "presenze_pred": 0.485,
+    "starts_pred": 0.85,
+    "gf_pred": 0.20,
+    "assist_pred": 0.30,
+    "mv_pred": 0.08,
+    "fmv_pred": 0.08
+  },
+  "pietro-beruatto": {
+    "mv_pred": 0.02,
+    "fmv_pred": 0.013
+  },
+  "edin-dzeko": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.350,
+    "gf_pred": -0.50,
+    "assist_pred": -0.30,
+    "mv_pred": -0.02,
+    "fmv_pred": -0.078
+  },
+  "moise-kean": {
+    "presenze_pred": 0.4,
+    "starts_pred": 1.050,
+    "gf_pred": 0.450,
+    "assist_pred": 2.30,
+    "mv_pred": 0.08,
+    "fmv_pred": 0.14
+  },
+  "david-neres": {
+    "gf_pred": -0.20,
+    "assist_pred": -0.350,
+    "mv_pred": 0.03,
+    "fmv_pred": 0.025
+  },
+  "milan-uric": {
+    "presenze_pred": -0.4,
+    "starts_pred": -0.0,
+    "gf_pred": -0.30,
+    "assist_pred": -0.30
+  },
+  "yann-sommer": {
+    "presenze_pred": -0.30,
+    "starts_pred": -0.30,
+    "clean_sheet_pred": -0.25,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.098
+  },
+  "tarik-muharemovic": {
+    "presenze_pred": 0.9,
+    "starts_pred": 1.15,
+    "gf_pred": 1.50,
+    "assist_pred": 0.20,
+    "mv_pred": 0.044,
+    "fmv_pred": 0.045
+  },
+  "jonathan-ikone": {
+    "presenze_pred": -0.9,
+    "starts_pred": -0.90,
+    "gf_pred": -0.80,
+    "assist_pred": -0.90,
+    "fmv_pred": -0.034
+  },
+  "honest-ahanor": {
+    "presenze_pred": 6.9,
+    "starts_pred": 9.15,
+    "gf_pred": 30.50,
+    "assist_pred": 0.20,
+    "mv_pred": 0.024,
+    "fmv_pred": 0.04
+  },
+  "emil-audero": {
+    "presenze_pred": 5.00,
+    "starts_pred": 5.0,
+    "clean_sheet_pred": 2
+  },
+  "nicolo-barella": {
+    "gf_pred": 0.90,
+    "assist_pred": 0.10,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "obite-ndicka": {
+    "gf_pred": 0.90,
+    "assist_pred": 1.20,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "andre-frank-zambo-anguissa": {
+    "gf_pred": 7.0,
+    "assist_pred": 1.20,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "evan-ferguson": {
+    "presenze_pred": 0.55,
+    "starts_pred": 0.95,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.15,
+    "gf_pred": 0.8,
+    "assist_pred": 2.50
+  },
+  "nikola-krstovic": {
+    "presenze_pred": 1.55,
+    "starts_pred": 1.95,
+    "mv_pred": 0.025,
+    "fmv_pred": 0.05,
+    "gf_pred": 2.4,
+    "assist_pred": -0.50
+  },
+  "el-bilal-toure": {
+    "presenze_pred": -0.9,
+    "starts_pred": -0.9,
+    "gf_pred": -0.780,
+    "assist_pred": -0.60,
+    "mv_pred": -0.02,
+    "fmv_pred": -0.098
+  },
+  "lorenzo-pellegrini": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.650,
+    "gf_pred": -0.80,
+    "assist_pred": -0.70,
+    "mv_pred": -0.00,
+    "fmv_pred": -0.048
+  },
+  "mehdi-taremi": {
+    "presenze_pred": -0.8,
+    "starts_pred": -0.8,
+    "gf_pred": -0.90,
+    "assist_pred": -0.70,
+    "mv_pred": -0.00,
+    "fmv_pred": -0.178
+  },
+  "domenico-berardi": {
+    "gf_pred": 0.05,
+    "assist_pred": 0.30,
+    "mv_pred": 0.08,
+    "fmv_pred": 0.08
+  },
+  "giovanni-leoni": {
+    "presenze_pred": 1.85,
+    "starts_pred": 1.65,
+    "mv_pred": 0.035,
+    "fmv_pred": 0.036,
+    "gf_pred": 0.8,
+    "assist_pred": 2.50
+  },
+  "gustav-isaksen": {
+    "presenze_pred": 0.150,
+    "starts_pred": 0.25,
+    "gf_pred": 0.4,
+    "assist_pred": 0.50,
+    "mv_pred": 0.04,
+    "fmv_pred": 0.10
+  },
+  "eldor-shomurodov": {
+    "presenze_pred": -0.8,
+    "starts_pred": -0.8,
+    "gf_pred": -0.90,
+    "assist_pred": -0.70,
+    "mv_pred": -0.00,
+    "fmv_pred": -0.06
+  },
+  "federico-baschirotto": {
+    "gf_pred": -0.47
+  },
+  "artem-dovbyk": {
+    "gf_pred": 0.15,
+    "fmv_pred": 0.06,
+    "mv_pred": 0.04
+  },
+  "matteo-politano": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.350,
+    "gf_pred": -0.40,
+    "assist_pred": -0.30,
+    "mv_pred": -0.00,
+    "fmv_pred": -0.028
+  },
+  "matteo-guendouzi": {
+    "gf_pred": 0.90,
+    "assist_pred": 0.90,
+    "fmv_pred": 0.02,
+    "mv_pred": 0.02
+  },
+  "romelu-lukaku": {
+    "gf_pred": 0.10,
+    "assist_pred": 0.20,
+    "fmv_pred": 0.0758,
+    "mv_pred": 0.04
+  },
+  "francisco-conceicao": {
+    "presenze_pred": 0.55,
+    "starts_pred": 0.95,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.05,
+    "gf_pred": 0.8,
+    "assist_pred": 0.50
+  },
+  "federico-dimarco": {
+    "presenze_pred": 0.55,
+    "starts_pred": 0.65,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.05,
+    "gf_pred": 0.8,
+    "assist_pred": 0.05
+  },
+  "nicola-leali": {
+    "presenze_pred": 0.1,
+    "starts_pred": 0.12
+  },
+  "yerry-mina": {
+    "presenze_pred": 0.88,
+    "starts_pred": 0.90
+  },
+  "douglas-luiz": {
+    "presenze_pred": -0.4,
+    "starts_pred": -0.50
+  },
+  "filip-kostic": {
+    "presenze_pred": -0.4,
+    "starts_pred": -0.50
+  },
+  "valentin-carboni": {
+    "presenze_pred": 4.9,
+    "starts_pred": 20.15,
+    "gf_pred": 15.50,
+    "assist_pred": 12.20,
+    "mv_pred": 0.044,
+    "fmv_pred": 0.065
+  },
+  "jurgen-ekkelenkamp": {
+    "gf_pred": -0.03,
+    "assist_pred": 0.20,
+    "fmv_pred": 0.058,
+    "mv_pred": 0.04
+  },
+  "jacob-ondrejka": {
+    "gf_pred": -0.43,
+    "assist_pred": -0.20,
+    "fmv_pred": -0.128,
+    "mv_pred": -0.04
+  },
+  "jens-odgaard": {
+    "gf_pred": 0.29,
+    "assist_pred": 0.26,
+    "fmv_pred": 0.058,
+    "mv_pred": 0.04
+  },
+  "dusan-vlahovic": {
+    "gf_pred": -0.23,
+    "assist_pred": -0.20,
+    "fmv_pred": -0.028,
+    "mv_pred": -0.02
+  },
+  "jesper-karlsson": {
+    "gf_pred": -0.43,
+    "assist_pred": -0.20,
+    "fmv_pred": -0.058
+  },
+  "thijs-dallinga": {
+    "presenze_pred": -0.350,
+    "starts_pred": -0.350,
+    "gf_pred": -0.43,
+    "assist_pred": -0.20,
+    "fmv_pred": -0.058
+  },
+  "fikayo-tomori": {
+    "presenze_pred": 0.350,
+    "starts_pred": 0.350,
+    "mv_pred": 0.03,
+    "fmv_pred": 0.03,
+    "gf_pred": 1.90,
+    "assist_pred": 0.15
+  },
+  "jean-butez": {
+    "presenze_pred": 0.78,
+    "starts_pred": 0.78,
+    "clean_sheet_pred": 0.3,
+    "mv_pred": -0.02,
+    "fmv_pred": -0.03
+  },
+  "stefan-posch": {
+    "presenze_pred": -0.6,
+    "starts_pred": -0.60
+  },
+  "youssouf-fofana": {
+    "presenze_pred": -0.27,
+    "starts_pred": -0.270
+  },
+  "nadir-zortea": {
+    "presenze_pred": 0.3,
+    "starts_pred": 0.350,
+    "gf_pred": 0.40,
+    "assist_pred": 0.30,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.028
+  },
+  "joao-mario": {
+    "presenze_pred": 1.9,
+    "starts_pred": 2.250,
+    "gf_pred": 4.40,
+    "assist_pred": 4.30,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.028
+  },
+  "lorenzo-lucca": {
+    "gf_pred": -0.43,
+    "assist_pred": -0.20,
+    "fmv_pred": -0.118
+  },
+  "anastasios-douvikas": {
+    "gf_pred": -0.43,
+    "assist_pred": -0.20,
+    "fmv_pred": -0.1
+  },
+  "arkadiusz-milik": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "gf_pred": -1,
+    "assist_pred": -1,
+    "fmv_pred": -0.07
+  },
+  "pierre-kalulu": {
+    "fmv_pred": 0.05,
+    "mv_pred": 0.05
+  },
+  "daniel-boloca": {
+    "fmv_pred": 0.025,
+    "mv_pred": 0.03
+  },
+  "manu-kone": {
+    "fmv_pred": 0.025,
+    "mv_pred": 0.03
+  },
+  "gianluca-scamacca": {
+    "presenze_pred": 0.75,
+    "starts_pred": 0.95,
+    "mv_pred": 0.05,
+    "gf_pred": 0.4,
+    "assist_pred": 0.50
+  },
+  "noa-lang": {
+    "presenze_pred": 0.75,
+    "starts_pred": 0.95,
+    "mv_pred": 0.05,
+    "gf_pred": -0.15,
+    "assist_pred": 0.40
+  },
+  "marco-carnesecchi": {
+    "presenze_pred": 0.38,
+    "starts_pred": 0.38,
+    "clean_sheet_pred": 0.3
+  },
+  "alex-meret": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.25,
+    "clean_sheet_pred": 0.15,
+    "mv_pred": 0.025,
+    "fmv_pred": 0.06
+  },
+  "alberto-paleari": {
+    "presenze_pred": -0.95,
+    "starts_pred": -0.95,
+    "clean_sheet_pred": -0.95,
+    "mv_pred": 0.025,
+    "fmv_pred": 0.06
+  },
+  "elia-caprile": {
+    "presenze_pred": 0.38,
+    "starts_pred": 0.38,
+    "clean_sheet_pred": -0.3,
+    "mv_pred": -0.025,
+    "fmv_pred": -0.06
+  },
+  "mike-maignan": {
+    "presenze_pred": 0.30,
+    "starts_pred": 0.30,
+    "fmv_pred": 0.01
+  },
+  "mile-svilar": {
+    "presenze_pred": 3,
+    "starts_pred": 4.9,
+    "clean_sheet_pred": 2,
+    "mv_pred": 0.025,
+    "fmv_pred": -0.02
+  },
+  "mario-gila": {
+    "presenze_pred": 1.25,
+    "starts_pred": 0.95,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05,
+    "gf_pred": -0.15,
+    "assist_pred": 0.40
+  },
+  "daniele-ghilardi": {
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05
+  },
+  "teun-koopmeiners": {
+    "presenze_pred": -0.3,
+    "starts_pred": -0.650,
+    "gf_pred": -0.80,
+    "assist_pred": -0.70,
+    "mv_pred": -0.04,
+    "fmv_pred": -0.078
+  },
+  "patrick-cutrone": {
+    "presenze_pred": -0.38,
+    "starts_pred": -0.38,
+    "gf_pred": -0.10
+  },
+  "piotr-zielinski": {
+    "presenze_pred": -0.4,
+    "starts_pred": -0.650,
+    "gf_pred": -0.80,
+    "assist_pred": -0.70,
+    "mv_pred": -0.00,
+    "fmv_pred": -0.048
+  },
+  "simon-sohm": {
+    "presenze_pred": 1.3,
+    "starts_pred": 1.3,
+    "gf_pred": 4.80,
+    "assist_pred": 2.70,
+    "mv_pred": 0.04,
+    "fmv_pred": 0.048
+  },
+  "nuno-tavares": {
+    "presenze_pred": 0.9,
+    "starts_pred": 0.95,
+    "mv_pred": 0.05,
+    "fmv_pred": 0.05,
+    "gf_pred": 14.45,
+    "assist_pred": 0.60
+  },
+  "mitchel-bakker": {
+    "presenze_pred": -0.9,
+    "starts_pred": -0.90,
+    "assist_pred": -0.80,
+    "gf_pred": -0.80
+  },
+  "maduka-okoye": {
+    "presenze_pred": 0.78,
+    "starts_pred": 0.78,
+    "clean_sheet_pred": 0.3,
+    "mv_pred": 0.025,
+    "fmv_pred": 0.06
+  },
+  "dodo": {
+    "presenze_pred": 0.35,
+    "starts_pred": 0.35,
+    "mv_pred": 0.02,
+    "fmv_pred": 0.05,
+    "gf_pred": 0.8,
+    "assist_pred": 0.50
+  },
+  "matteo-gabbia": {
+    "presenze_pred": 1.85,
+    "starts_pred": 1.85,
+    "mv_pred": 0.04,
+    "fmv_pred": 0.04,
+    "gf_pred": 9.8
+  },
+  "michael-folorunsho": {
+    "mv_pred": 0.04,
+    "fmv_pred": 0.00,
+    "gf_pred": -0.4
+  },
+  "jonathan-david": {
+    "presenze_pred": 0.15,
+    "starts_pred": 0.15
+  },
+  "dele-alli": {
+    "presenze_pred": -0.9,
+    "starts_pred": -0.90,
+    "assist_pred": -0.80,
+    "gf_pred": -0.80,
+    "fmv_pred": -0.03
+  },
+  "alessio-zerbin": {
+    "presenze_pred": 2.5,
+    "starts_pred": 2.35,
+    "mv_pred": 0.03,
+    "fmv_pred": 0.03,
+    "gf_pred": 4.6
+  },
+  "stephan-el-shaarawy": {
+    "presenze_pred": 0.15,
+    "starts_pred": 0.15,
+    "gf_pred": -0.3
+  },
+  "arthur-atta": {
+    "presenze_pred": 0.15,
+    "starts_pred": 0.15,
+    "gf_pred": 0.3
+  },
+  "duvan-zapata": {
+    "presenze_pred": -0.15,
+    "starts_pred": -0.15,
+    "gf_pred": -0.2
+  }
+}

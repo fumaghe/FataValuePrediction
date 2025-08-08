@@ -18,14 +18,14 @@ except ModuleNotFoundError:                   # fallback se SciPy manca
 from ..settings import MIN_MATCHES_FOR_RATING, DEFAULT_RATING
 
 # ------------------- parametri regolabili -------------------------- #
-ASSIST_MULT = 1.33
-BONUS_K     = 1.20
+ASSIST_MULT = 1.03
+BONUS_K     = 1.05
 # ------------------------------------------------------------------- #
 
 
 def _goal_curve(g: pd.Series | np.ndarray) -> pd.Series:
     """ Bonus non lineare per i gol (3*gol fino a ~10 reti). """
-    return 3.0 * expit(0.25 * (g - 6)) * g
+    return 2.2 * expit(0.25 * (g - 6)) * g
 
 
 def postprocess(
