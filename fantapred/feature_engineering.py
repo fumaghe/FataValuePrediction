@@ -158,10 +158,23 @@ def project_player_row(hist: pd.DataFrame, next_season: str) -> pd.Series:
 def build_future_dataframe(
     df: pd.DataFrame, train_until: str, next_season: str
 ) -> pd.DataFrame:
+    """
+    Crea la proiezione della riga futura SOLO per i giocatori che
+    **non** hanno già una riga per `next_season` (evita duplicati
+    quando il CSV contiene già placeholder della stagione successiva).
+    """
     rows: list[pd.Series] = []
+
+    # giocatori che possiedono già la riga futura
+    already_present = set(df.loc[df["season"] == next_season, "player_id"])
+
     for pid, hist in df.sort_values(["player_id", "season"]).groupby("player_id"):
+        if pid in already_present:           # riga futura già nel CSV
+            continue
         htrain = hist[hist["season"] <= train_until]
         if htrain.empty:
             continue
         rows.append(project_player_row(htrain, next_season))
-    return pd.DataFrame(rows)
+
+    # se nessuna proiezione serve, restituisce DataFrame vuoto ma con le colonne giuste
+    return pd.DataFrame(rows) if rows else pd.DataFrame(columns=df.columns)
