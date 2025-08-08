@@ -159,18 +159,19 @@ def main() -> None:
         c = col.lower()
         if c in explicit_keep:
             return False
-        if c.endswith("_id") or "id" in c:
+        # escludi solo le colonne che finiscono davvero in "_id" o si chiamano esattamente "id"
+        if c.endswith("_id") or c == "id":
             return False
         if "year" in c:
-            return False
-        if c in {"season_year"}:
             return False
         return True
 
     stat_cols_zero = [c for c in numeric_cols if should_zero(c)]
     for c in stat_cols_zero:
         if c in fut.columns:
-            fut[c] = 0
+            # assicuriamoci che la colonna gestisca NaN convertendola a float
+            fut[c] = fut[c].astype(float)
+            fut[c] = np.nan
 
     # ---- 7) Pulisci helper e ordina colonne come input ---- #
     fut = fut.drop(columns=[
