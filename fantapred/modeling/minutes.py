@@ -104,7 +104,7 @@ def _build_healthy_priors(df: pd.DataFrame) -> pd.DataFrame:
     Tutto SHIFTED: per ogni riga consideriamo solo stagioni precedenti.
     """
     df = df.copy()
-    df["year"] = _season_year(df["season"]).astype(int)
+    df["year"] = _season_year(df["season"])
     df.sort_values(["player_id", "team_name_short", "year"], inplace=True)
 
     grp_pc = df.groupby(["player_id", "team_name_short"], observed=True)
@@ -147,15 +147,30 @@ def _build_healthy_priors(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def _season_prev_series(season: pd.Series) -> pd.Series:
+    s = season.astype(str)
+    m = s.str.extract(r"^s_(\d{2})_(\d{2})$")
+    start = pd.to_numeric(m[0], errors="coerce")
+    end   = pd.to_numeric(m[1], errors="coerce")
+    mask = start.notna() & end.notna()
+
+    prev = pd.Series(np.nan, index=season.index, dtype="object")
+    if mask.any():
+        prev_start = (start[mask] - 1).astype(int)
+        prev_end   = (end[mask]   - 1).astype(int)
+        prev.loc[mask] = (
+            "s_"
+            + prev_start.map("{:02d}".format)
+            + "_"
+            + prev_end.map("{:02d}".format)
+        )
+    return prev
 
 # ============================================================
 # Depth-features: titolari (≥1800′) dell’anno precedente
 # ============================================================
 def _depth_features(df: pd.DataFrame) -> pd.DataFrame:
-    prev_season = (
-        df["season"].str.extract(r"s_(\d{2})_\d{2}")[0].astype(int).sub(1).astype(str)
-        .radd("s_").str.cat(df["season"].str[-2:], sep="_")
-    )
+    prev_season = _season_prev_series(df["season"])
     base = df.assign(season_prev=prev_season)
     tit = base[base["min_playing_time"] >= 1800]
     return (

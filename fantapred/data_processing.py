@@ -7,6 +7,24 @@ from sklearn.impute import IterativeImputer
 from .utils.cache import memory
 
 # ---------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------
+def _to_numeric_clean(s: pd.Series) -> pd.Series:
+    """
+    Converte in numerico una serie potenzialmente 'sporca':
+    - accetta virgole decimali,
+    - estrae solo la parte numerica da stringhe tipo '30 min',
+    - trasforma non numerici in NaN.
+    """
+    if s is None:
+        return pd.Series(dtype="float64")
+    s = s.astype(str).str.replace(",", ".", regex=False)
+    # Prende solo il numero (eventuale segno + decimali)
+    s = s.str.extract(r"([-+]?\d*\.?\d+)")[0]
+    return pd.to_numeric(s, errors="coerce")
+
+
+# ---------------------------------------------------------------------
 # 1) IMPUTAZIONE GERARCHICA – già presente
 # ---------------------------------------------------------------------
 @memory.cache
@@ -70,18 +88,35 @@ def aggregate_midseason_rows(df: pd.DataFrame) -> pd.DataFrame:
 
     def _agg(grp: pd.DataFrame) -> pd.Series:
         out = grp.iloc[-1].copy()  # tieni l’ultima riga (squadra finale)
-        # Somme
-        for col in ADDITIVE_COLS & set(grp.columns):
-            out[col] = grp[col].sum(min_count=1)
-        # Medie ponderate voto
-        for col in RATING_COLS & set(grp.columns):
-            w = grp["min_playing_time"].fillna(0).clip(lower=1)
-            out[col] = np.average(grp[col], weights=w)
+
+        # --- Pesi: minuti giocati, ripuliti ---
+        if "min_playing_time" in grp.columns:
+            mins = _to_numeric_clean(grp["min_playing_time"]).fillna(0)
+        else:
+            # se non esiste la colonna, usa zeri
+            mins = pd.Series(0, index=grp.index, dtype="float64")
+
+        # Evita pesi tutti zero: usa almeno 1 per elemento non-NaN
+        w = mins.clip(lower=1)
+
+        # --- Somme sicure sulle additive ---
+        for col in (ADDITIVE_COLS & set(grp.columns)):
+            out[col] = _to_numeric_clean(grp[col]).sum(min_count=1)
+
+        # --- Medie ponderate voto ---
+        for col in (RATING_COLS & set(grp.columns)):
+            vals = _to_numeric_clean(grp[col]) if grp[col].dtype == object else grp[col].astype(float)
+            mask = vals.notna() & w.notna()
+            if mask.any():
+                out[col] = np.average(vals[mask], weights=w[mask])
+            else:
+                out[col] = np.nan
+
         return out
 
     aggregated = (
         df.groupby(["player_id", "season"], as_index=False, sort=False)
-        .apply(_agg)
-        .reset_index(drop=True)
+          .apply(_agg)
+          .reset_index(drop=True)
     )
     return aggregated
