@@ -1,0 +1,513 @@
+name,slug,ruolo,team,PMA,prezzo,ruolo_foglio
+DI GREGORIO,michele-di-gregorio,P,JUV,10.2,50,P
+SOMMER,yann-sommer,P,INT,10.0,46,P
+MERET,alex-meret,P,NAP,8.7,42,P
+SVILAR,mile-svilar,P,ROM,9.8,41,P
+MAIGNAN,mike-maignan,P,MIL,9.6,40,P
+CARNESECCHI,marco-carnesecchi,P,ATA,7.8,30,P
+DE GEA,david-de-gea,P,FIO,7.6,27,P
+PROVEDEL,ivan-provedel,P,LAZ,5.2,22,P
+SKORUPSKI,ukasz-skorupski,P,BOL,4.0,17,P
+BUTEZ,jean-butez,P,COM,3.3,13,P
+ISRAEL,franco-israel,P,TOR,1.4,12,P
+LEALI,nicola-leali,P,GEN,2.1,10,P
+CAPRILE,elia-caprile,P,CAG,1.6,7,P
+FALCONE,wladimiro-falcone,P,LEC,1.2,6,P
+SUZUKI,zion-suzuki,P,PAR,1.0,4,P
+MONTIPÒ,lorenzo-montipo,P,VER,0.4,3,P
+AUDERO,emil-audero,P,CRE,0.4,1,P
+MURIC,arijanet-muric,P,SAS,0.2,1,P
+OKOYE,maduka-okoye,P,UDI,0.2,1,P
+SEMPER,adrian-semper,P,PIS,0.2,1,P
+MILINKOVIC-SAVIC V.,vanja-milinkovic-savic,P,NAP,3.2,12,P
+MANDAS,christos-mandas,P,LAZ,0.6,3,P
+PERIN,mattia-perin,P,JUV,0.2,2,P
+RAVAGLIA F.,federico-ravaglia,P,BOL,0.2,1,P
+SAVA,razvan-sava,P,UDI,0.2,1,P
+TURATI,stefano-turati,P,SAS,0.4,1,P
+MARTINEZ JO.,josep-martinez,P,INT,0.2,1,P
+PALEARI,alberto-paleari,P,TOR,0.2,1,P
+SCUFFET,simone-scuffet,P,PIS,0.2,1,P
+SILVESTRI,marco-silvestri,P,CRE,0.2,1,P
+CIOCCI,giuseppe-ciocci,P,CAG,0.2,1,P
+CONTINI,nikita-contini-baranovsky,P,NAP,0.2,1,P
+CORVI,edoardo-corvi,P,PAR,0.2,1,P
+DI GENNARO,raffaele-di-gennaro,P,INT,0.2,1,P
+FRUCHTL,christian-fruchtl,P,LEC,0.2,1,P
+GOLLINI,pierluigi-gollini,P,ROM,0.2,1,P
+MARTINELLI T.,tommaso-martinelli,P,FIO,0.2,1,P
+NAVA,lapo-nava,P,CRE,0.2,1,P
+PADELLI,daniele-padelli,P,UDI,0.2,1,P
+PERILLI,simone-perilli,P,VER,0.2,1,P
+PINSOGLIO,carlo-pinsoglio,P,JUV,0.2,1,P
+ROSSI F.,francesco-rossi,P,ATA,0.2,1,P
+SATALINO,giacomo-satalino,P,SAS,0.0,1,P
+SIEGRIST,benjamin-siegrist,P,GEN,0.2,1,P
+SOMMARIVA,daniele-sommariva,P,GEN,0.2,1,P
+SPORTIELLO,marco-sportiello,P,ATA,0.2,1,P
+TERRACCIANO,pietro-terracciano,P,MIL,0.2,1,P
+VASQUEZ D.,devis-vasquez,P,ROM,0.2,1,P
+VIGORITO,mauro-vigorito,P,COM,0.2,1,P
+CAVLINA,nikola-cavlina,P,COM,0.2,0,P
+LEZZERINI,luca-lezzerini,P,FIO,0.2,0,P
+NICOLAS,nicolas-andrade,P,PIS,0.0,0,P
+POPA,mihai-popa,P,TOR,0.2,0,P
+RADUNOVIC,boris-radunovic,P,CAG,0.2,0,P
+DUMFRIES,denzel-dumfries,D,INT,9.0,43,D
+DIMARCO,federico-dimarco,D,INT,8.9,41,D
+BASTONI,alessandro-bastoni,D,INT,7.0,29,D
+GOSENS,robin-gosens,D,FIO,7.4,28,D
+WESLEY,wesley,D,ROM,6.4,28,D
+DODÒ,dodo,D,FIO,5.8,27,D
+ANGELINO,angelino,D,ROM,6.4,26,D
+TAVARES N.,nuno-tavares,D,LAZ,5.6,26,D
+BREMER,gleison-bremer,D,JUV,6.8,25,D
+BUONGIORNO,alessandro-buongiorno,D,NAP,5.2,25,D
+BELLANOVA,raoul-bellanova,D,ATA,6.2,24,D
+DI LORENZO,giovanni-di-lorenzo,D,NAP,6.4,24,D
+CAMBIASO,andrea-cambiaso,D,JUV,6.6,23,D
+MANCINI,gianluca-mancini,D,ROM,3.4,20,D
+RRAHMANI,amir-rrahmani,D,NAP,3.6,20,D
+MARTIN,aaron-martin,D,GEN,3.5,19,D
+ZORTEA,nadir-zortea,D,BOL,3.8,19,D
+JOAO MARIO,joao-mario,D,JUV,3.0,18,D
+GATTI,federico-gatti,D,JUV,2.0,17,D
+SOLET,oumar-solet,D,UDI,3.4,17,D
+ESTUPINAN,pervis-estupinan,D,MIL,3.6,16,D
+VALERI,emanuele-valeri,D,PAR,2.8,16,D
+PAVLOVIC,strahinja-pavlovic,D,MIL,2.4,15,D
+VOJVODA,mergim-vojvoda,D,COM,2.4,14,D
+ZAPPACOSTA,davide-zappacosta,D,ATA,1.8,12,D
+MIRANDA J.,juan-miranda,D,BOL,3.1,11,D
+KALULU,pierre-kalulu,D,JUV,2.4,10,D
+TOMORI,fikayo-tomori,D,MIL,1.8,10,D
+ANGORI,samuele-angori,D,PIS,1.4,9,D
+GILA,mario-gila,D,LAZ,1.8,9,D
+ACERBI,francesco-acerbi,D,INT,1.6,8,D
+GABBIA,matteo-gabbia,D,MIL,0.8,8,D
+GASPAR K.,kialonda-gaspar,D,LEC,0.8,8,D
+N'DICKA,obite-ndicka,D,ROM,2.0,8,D
+DELPRATO,enrico-del-prato,D,PAR,1.8,7,D
+RAMON,jacobo-ramon,D,COM,2.0,7,D
+SCALVINI,giorgio-scalvini,D,ATA,1.4,7,D
+VASQUEZ,johan-vasquez,D,GEN,1.8,7,D
+HERMOSO,mario-hermoso,D,ROM,0.6,6,D
+VITIK,martin-vitik,D,BOL,1.2,6,D
+LUPERTO,sebastiano-luperto,D,CAG,1.2,5,D
+MINA,yerry-mina,D,CAG,1.2,5,D
+ROMAGNOLI,alessio-romagnoli,D,LAZ,0.6,5,D
+BASCHIROTTO,federico-baschirotto,D,CRE,1.8,4,D
+HIEN,isak-hien,D,ATA,2.2,4,D
+PEZZELLA GIU.,giuseppe-pezzella,D,CRE,0.6,4,D
+BIRAGHI,cristiano-biraghi,D,TOR,1.2,3,D
+COMUZZO,pietro-comuzzo,D,FIO,1.0,3,D
+NORTON-CUFFY,brooke-norton-cuffy,D,GEN,0.6,3,D
+VALLE,alex-valle,D,COM,1.3,3,D
+CANESTRELLI,simone-canestrelli,D,PIS,0.2,2,D
+COCO,saul-coco,D,TOR,0.4,2,D
+DOIG,josh-doig,D,SAS,1.4,2,D
+HEGGEM,torbjorn-heggem,D,BOL,0.2,2,D
+KEMPF,marc-oliver-kempf,D,COM,0.3,2,D
+LOVIK,mathias-lovik,D,PAR,0.2,2,D
+MARUSIC,adam-marusic,D,LAZ,0.5,2,D
+OSTIGARD,leo-skiri-ostigard,D,GEN,0.2,2,D
+PALESTRA,marco-palestra,D,CAG,0.4,2,D
+RANIERI L.,luca-ranieri,D,FIO,0.6,2,D
+TERRACCIANO F.,filippo-terracciano,D,CRE,0.4,2,D
+BERTOLA,nicolo-bertola,D,UDI,0.2,1,D
+CIRCATI,alessandro-circati,D,PAR,0.2,1,D
+DJIMSITI,berat-djimsiti,D,ATA,0.3,1,D
+GALLO,antonino-gallo,D,LEC,0.6,1,D
+MARIPAN,guillermo-maripan,D,TOR,0.2,1,D
+PONGRACIC,marin-pongracic,D,FIO,0.2,1,D
+ZEMURA,jordan-zemura,D,UDI,0.2,1,D
+AKANJI,manuel-akanji,D,INT,0.0,8,D
+CARLOS AUGUSTO,carlos-augusto,D,INT,2.0,7,D
+GUTIERREZ,miguel-gutierrez,D,NAP,1.6,7,D
+DE VRIJ,stefan-de-vrij,D,INT,0.4,6,D
+BISSECK,yann-aurel-bisseck,D,INT,1.2,5,D
+CUADRADO,juan-cuadrado,D,PIS,0.8,4,D
+LAZARO,valentino-lazaro,D,TOR,1.0,4,D
+KELLY L.,lloyd-kelly,D,JUV,0.3,2,D
+SPINAZZOLA,leonardo-spinazzola,D,NAP,0.6,2,D
+AHANOR,honest-ahanor,D,ATA,0.2,1,D
+BARBIERI,tommaso-barbieri,D,CRE,0.2,1,D
+BEUKEMA,sam-beukema,D,NAP,1.2,1,D
+DIEGO CARLOS,diego-carlos,D,COM,0.0,1,D
+FAYE,mikayil-ngor-faye,D,CRE,0.0,1,D
+FLORIANI MUSSOLINI,romano-floriani-mussolini,D,CRE,0.4,1,D
+FRESE,martin-frese,D,VER,0.2,1,D
+IDRISSI R.,ryad-idrissi,D,CAG,0.2,1,D
+KAMARA H.,hassane-kamara,D,UDI,0.2,1,D
+KOSSOUNOU,odilon-kossounou,D,ATA,0.6,1,D
+LUCUMÌ,jhon-lucumi,D,BOL,0.6,1,D
+LYKOGIANNIS,charalampos-lykogiannis,D,BOL,0.2,1,D
+OLIVERA,mathias-olivera,D,NAP,1.4,1,D
+BIANCHETTI,matteo-bianchetti,D,CRE,0.2,1,D
+BRADARIC,domagoj-bradaric,D,VER,0.2,1,D
+CANDÈ,fali-cande,D,SAS,0.2,1,D
+CARACCIOLO A.,antonio-caracciolo,D,PIS,0.2,1,D
+EHIZIBUE,kingsley-ehizibue,D,UDI,0.4,1,D
+IDZES,jay-idzes,D,SAS,0.3,1,D
+KRISTENSEN T.,thomas-kristensen,D,UDI,0.5,1,D
+MUHAREMOVIC,tarik-muharemovic,D,SAS,0.3,1,D
+NELSSON,victor-nelsson,D,VER,0.2,1,D
+TIAGO GABRIEL,tiago-gabriel,D,LEC,0.2,1,D
+UNAI NUNEZ,unai-nunez,D,VER,0.2,1,D
+VALENTI,lautaro-valenti,D,PAR,0.2,1,D
+VALENTINI N.,nicolas-valentini,D,VER,0.2,1,D
+VEIGA D.,danilo-veiga,D,LEC,0.2,1,D
+WALUKIEWICZ,sebastian-walukiewicz,D,SAS,0.2,1,D
+ZAPPA,gabriele-zappa,D,CAG,0.4,1,D
+ATHEKAME,zachary-athekame,D,MIL,0.2,1,D
+BALOGH,botond-balogh,D,PAR,0.2,1,D
+BELGHALI,rafik-belghali,D,VER,0.2,1,D
+BELLA-KOTCHAP,armel-bella-kotchap,D,VER,0.2,1,D
+CALABRESI,arturo-calabresi,D,PIS,0.2,1,D
+CASALE,nicolo-casale,D,BOL,0.4,1,D
+CECCHERINI,federico-ceccherini,D,CRE,0.2,1,D
+CELIK,zeki-celik,D,ROM,0.2,1,D
+CHAM,fallou-cham,D,VER,0.2,1,D
+DARMIAN,matteo-darmian,D,INT,0.2,1,D
+DE SILVESTRI,lorenzo-de-silvestri,D,BOL,0.2,1,D
+DE WINTER,koni-de-winter,D,MIL,0.8,1,D
+DEMBELÈ A.,ali-dembele,D,TOR,0.2,1,D
+DENOON,daniel-denoon,D,PIS,0.2,1,D
+DOSSENA,alberto-dossena,D,COM,0.2,1,D
+EBOSSE,enzo-ebosse,D,VER,0.2,1,D
+ESTEVES T.,tomas-esteves,D,PIS,0.2,1,D
+FOLINO,francesco-folino,D,CRE,0.0,1,D
+GHILARDI,daniele-ghilardi,D,ROM,0.2,1,D
+GIGOT,samuel-gigot,D,LAZ,0.2,1,D
+GOGLICHIDZE,saba-goglichidze,D,UDI,0.2,1,D
+GOLDANIGA,edoardo-goldaniga,D,COM,0.6,1,D
+HOLM,emil-holm,D,BOL,0.4,1,D
+ISMAJLI,ardian-ismajli,D,TOR,0.2,1,D
+JEAN,gaby-jean,D,LEC,0.0,1,D
+JUAN JESUS,juan-jesus,D,NAP,0.2,1,D
+KABASELE,christian-kabasele,D,UDI,0.2,1,D
+KOLASINAC,sead-kolasinac,D,ATA,0.2,1,D
+KOUASSI,christ-owen-kouassi,D,LEC,0.2,1,D
+LAMPTEY,tariq-lamptey,D,FIO,0.2,1,D
+LAZZARI,manuel-lazzari,D,LAZ,0.2,1,D
+MARIANUCCI,luca-marianucci,D,NAP,0.2,1,D
+MARÌ,pablo-mari,D,FIO,0.2,1,D
+MASINA,adam-masina,D,TOR,0.2,1,D
+MATEUS LUSUARDI,mateus-lusuardi,D,PIS,0.2,1,D
+MAZZOCCHI,pasquale-mazzocchi,D,NAP,0.2,1,D
+MORENO ALB.,alberto-moreno,D,COM,0.2,1,D
+NDIAYE,abdoulaye-niakhate-ndiaye,D,PAR,0.2,1,D
+NKOUNKOU,niels-nkounkou,D,TOR,0.0,1,D
+OBERT,adam-obert,D,CAG,0.2,1,D
+ODENTHAL,cas-odenthal,D,SAS,0.0,1,D
+OYEGOKE,daniel-oyegoke,D,VER,0.2,1,D
+PALMA,matteo-palma,D,UDI,0.2,1,D
+PARISI,fabiano-parisi,D,FIO,0.2,1,D
+PAZ Y.,yeferson-paz,D,SAS,0.2,1,D
+PEDERSEN,marcus-pedersen,D,TOR,0.2,1,D
+PELLEGRINI LU.,luca-pellegrini,D,LAZ,0.2,1,D
+PIERAGNOLO,edoardo-pieragnolo,D,SAS,0.0,1,D
+POSCH,stefan-posch,D,COM,0.3,1,D
+PROVSTGAARD,oliver-provstgaard,D,LAZ,0.2,1,D
+RENSCH,devyne-rensch,D,ROM,0.2,1,D
+ROMAGNA,filippo-romagna,D,SAS,0.3,1,D
+RUGANI,daniele-rugani,D,JUV,0.2,1,D
+RUI MODESTO,rui-modesto,D,UDI,0.0,1,D
+SABELLI,stefano-sabelli,D,GEN,0.2,1,D
+SCHUURS,perr-schuurs,D,TOR,0.2,1,D
+SIEBERT,jamil-siebert,D,LEC,0.2,1,D
+SMOLCIC I.,ivan-smolcic,D,COM,0.2,1,D
+TROILO,mariano-troilo,D,PAR,0.2,1,D
+TSIMIKAS,kostas-tsimikas,D,ROM,0.4,1,D
+VAN DER BREMPT,ignace-van-der-brempt,D,COM,0.2,1,D
+VITI,mattia-viti,D,FIO,0.2,1,D
+ZANOLI,alessandro-zanoli,D,UDI,0.2,1,D
+ZIOLKOWSKI,jan-ziolkowski,D,ROM,0.3,1,D
+BARTESAGHI,davide-bartesaghi,D,MIL,0.2,1,D
+CABAL,juan-david-cabal,D,JUV,0.2,1,D
+HYSAJ,elseid-hysaj,D,LAZ,0.2,1,D
+MARCANDALLI,alessandro-marcandalli,D,GEN,0.2,1,D
+OTOA,sebastian-otoa,D,GEN,0.0,1,D
+PATRIC,patric,D,LAZ,0.0,1,D
+SLOTSAGER,tobias-slotsager,D,VER,0.0,1,D
+ALBIOL,raul-albiol,D,PIS,0.0,0,D
+BONFANTI,nicholas-bonfanti,D,PIS,0.4,0,D
+BRITSCHGI,sascha-britschgi,D,PAR,0.2,0,D
+DI PARDO,alessandro-di-pardo,D,CAG,0.0,0,D
+FORTINI,niccolo-fortini,D,FIO,0.2,0,D
+ILIC M.,mihajlo-ilic,D,BOL,0.2,0,D
+NDABA,corrie-ndaba,D,LEC,0.2,0,D
+ODOGU,david-odogu,D,MIL,0.0,0,D
+RODRIGUEZ JU.,juan-rodriguez,D,CAG,0.0,0,D
+ROUHI,jonas-rouhi,D,JUV,0.2,0,D
+SERNICOLA,leonardo-sernicola,D,CRE,0.2,0,D
+ORSOLINI,riccardo-orsolini,C,BOL,15.2,75,C
+PULISIC,christian-pulisic,C,MIL,16.0,75,C
+MCTOMINAY,scott-mctominay,C,NAP,16.6,70,C
+PAZ N.,nico-paz,C,COM,16.0,70,C
+ZACCAGNI,mattia-zaccagni,C,LAZ,14.6,57,C
+DE BRUYNE,kevin-de-bruyne,C,NAP,13.2,55,C
+GUDMUNDSSON A.,albert-gumundsson,C,FIO,13.2,52,C
+CONCEICAO,francisco-conceicao,C,JUV,9.2,38,C
+CALHANOGLU,hakan-calhanoglu,C,INT,8.8,30,C
+ZAMBO ANGUISSA,andre-frank-zambo-anguissa,C,NAP,5.0,29,C
+BARELLA,nicolo-barella,C,INT,7.4,28,C
+POLITANO,matteo-politano,C,NAP,7.3,26,C
+NERES,david-neres,C,NAP,4.0,25,C
+THURAM K.,khephren-thuram,C,JUV,6.8,24,C
+ODGAARD,jens-odgaard,C,BOL,6.4,22,C
+SAELEMAEKERS,alexis-saelemaekers,C,MIL,4.0,22,C
+BERNABÈ,adrian-bernabe,C,PAR,2.4,21,C
+KONÈ M.,manu-kone,C,ROM,5.0,21,C
+MODRIC,luka-modric,C,MIL,4.8,21,C
+VAZQUEZ,franco-vazquez,C,CRE,1.8,21,C
+ISAKSEN,gustav-isaksen,C,LAZ,5.0,20,C
+MKHITARYAN,henrikh-mkhitaryan,C,INT,1.4,20,C
+PASALIC,mario-pasalic,C,ATA,1.8,20,C
+TRAMONI M.,matteo-tramoni,C,PIS,4.0,20,C
+MALDINI,daniel-maldini,C,ATA,2.0,19,C
+RABIOT,adrien-rabiot,C,MIL,0.0,19,C
+VLASIC,nikola-vlasic,C,TOR,4.4,19,C
+ATTA,arthur-atta,C,UDI,2.8,18,C
+CARBONI V.,valentin-carboni,C,GEN,3.2,18,C
+SUCIC P.,petar-sucic,C,INT,4.4,17,C
+LOFTUS-CHEEK,ruben-loftus-cheek,C,MIL,3.8,16,C
+SAMARDZIC,lazar-samardzic,C,ATA,3.0,15,C
+VANDEPUTTE,jari-vandeputte,C,CRE,1.8,15,C
+GRONBAEK,albert-grnbk,C,GEN,2.2,14,C
+ORISTANIO,gaetano-oristanio,C,PAR,1.8,14,C
+TOURÈ I.,idrissa-toure,C,PIS,0.6,14,C
+STANCIU,nicolae-stanciu,C,GEN,2.6,13,C
+DELE-BASHIRU,fisayo-dele-bashiru,C,LAZ,1.7,12,C
+DA CUNHA,lucas-da-cunha,C,COM,2.1,11,C
+EDERSON D.S.,ederson,C,ATA,4.0,11,C
+EL AYNAOUI,neil-el-aynaoui,C,ROM,1.0,10,C
+GUENDOUZI,matteo-guendouzi,C,LAZ,1.4,8,C
+PIEROTTI,santiago-pierotti,C,LEC,0.5,7,C
+COLLOCOLO,michele-collocolo,C,CRE,0.6,6,C
+CASADEI,cesare-casadei,C,TOR,1.4,5,C
+FOLORUNSHO,michael-folorunsho,C,CAG,1.8,5,C
+ZALEWSKI,nicola-zalewski,C,ATA,1.2,5,C
+FADERA,alieu-fadera,C,SAS,0.2,4,C
+ZERBIN,alessio-zerbin,C,CRE,0.6,4,C
+MANDRAGORA,rolando-mandragora,C,FIO,1.2,3,C
+LOCATELLI,manuel-locatelli,C,JUV,1.4,2,C
+ADOPO,michel-ndary-adopo,C,CAG,0.2,1,C
+DE ROON,marten-de-roon,C,ATA,0.6,1,C
+FAGIOLI,nicolo-fagioli,C,FIO,0.6,1,C
+FREULER,remo-freuler,C,BOL,0.4,1,C
+KARLSTROM,jesper-karlstrom,C,UDI,0.2,1,C
+LOBOTKA,stanislav-lobotka,C,NAP,1.0,1,C
+LOVRIC,sandi-lovric,C,UDI,0.4,1,C
+MASINI,patrizio-masini,C,GEN,0.2,1,C
+SERDAR,suat-serdar,C,VER,0.2,1,C
+SOHM,simon-sohm,C,FIO,1.0,1,C
+ROWE,jon-rowe,C,BOL,2.2,17,C
+ZHEGROVA,edon-zhegrova,C,JUV,0.0,16,C
+KOOPMEINERS,teun-koopmeiners,C,JUV,3.6,15,C
+BATURINA,martin-baturina,C,COM,1.9,14,C
+MALINOVSKYI,ruslan-malinovskyi,C,GEN,0.4,6,C
+BAILEY,leon-bailey,C,ROM,1.8,5,C
+FAZZINI,jacopo-fazzini,C,FIO,0.4,5,C
+STENGS,calvin-stengs,C,PIS,0.4,5,C
+EL SHAARAWY,stephan-el-shaarawy,C,ROM,1.4,4,C
+LUIS HENRIQUE,luis-henrique,C,INT,0.2,3,C
+DIOUF,andy-diouf,C,INT,0.2,2,C
+FRATTESI,davide-frattesi,C,INT,1.4,2,C
+GAETANO,gianluca-gaetano,C,CAG,0.6,2,C
+SOTTIL,riccardo-sottil,C,LEC,0.2,2,C
+TETE MORENTE,tete-morente,C,LEC,0.2,2,C
+BALDANZI,tommaso-baldanzi,C,ROM,0.3,1,C
+BERNARDESCHI,federico-bernardeschi,C,BOL,0.5,1,C
+BRESCIANINI,marco-brescianini,C,ATA,0.2,1,C
+CORNET,maxwel-cornet,C,GEN,0.0,1,C
+CRISTANTE,bryan-cristante,C,ROM,0.4,1,C
+ELLERTSSON,mikael-ellertsson,C,GEN,0.2,1,C
+ELMAS,elif-elmas,C,NAP,0.0,1,C
+FABBIAN,giovanni-fabbian,C,BOL,0.4,1,C
+FOFANA Y.,youssouf-fofana,C,MIL,0.6,1,C
+HARROUI,abdou-harroui,C,VER,0.2,1,C
+ILIC,ivan-ilic,C,TOR,0.2,1,C
+JASHARI,ardon-jashari,C,MIL,0.8,1,C
+NICOLUSSI CAVIGLIA,hans-nicolussi-caviglia,C,FIO,0.3,1,C
+PIOTROWSKI,jakub-piotrowski,C,UDI,0.2,1,C
+POBEGA,tommaso-pobega,C,BOL,0.2,1,C
+THORSTVEDT,kristian-thorstvedt,C,SAS,1.0,1,C
+ZANIOLO,nicolo-zaniolo,C,UDI,0.0,1,C
+AEBISCHER,michel-aebischer,C,PIS,0.2,1,C
+AL-MUSRATI,almoatasem-al-musrati,C,VER,0.2,1,C
+BERISHA M.,medon-berisha,C,LEC,0.2,1,C
+BOLOCA,daniel-boloca,C,SAS,0.2,1,C
+BONDO,warren-bondo,C,CRE,0.3,1,C
+COULIBALY L.,lassana-coulibaly,C,LEC,0.2,1,C
+FRENDRUP,morten-frendrup,C,GEN,0.4,1,C
+KABA,mohamed-kaba,C,LEC,0.3,1,C
+KONÈ I.,ismael-kone,C,SAS,0.2,1,C
+MARIN M.,marius-marin,C,PIS,0.2,1,C
+MATIC,nemanja-matic,C,SAS,0.2,1,C
+ORDONEZ C.,christian-ordonez,C,PAR,0.2,1,C
+PERRONE,maximo-perrone,C,COM,0.2,1,C
+PRATI,matteo-prati,C,CAG,0.2,1,C
+RAMADANI,ylber-ramadani,C,LEC,0.2,1,C
+ROVELLA,nicolo-rovella,C,LAZ,0.4,1,C
+VRANCKX,aster-vranckx,C,SAS,0.2,1,C
+ADZIC,vasilije-adzic,C,JUV,0.2,1,C
+AKINSANMIRO,ebenezer-akinsanmiro,C,PIS,0.2,1,C
+ANJORIN,faustino-anjorin,C,TOR,0.3,1,C
+ASLLANI,kristjan-asllani,C,TOR,0.3,1,C
+BELAHYANE,reda-belahyane,C,LAZ,0.2,1,C
+BERNEDE,antoine-bernede,C,VER,0.2,1,C
+CAQUERET,maxence-caqueret,C,COM,0.2,1,C
+CATALDI,danilo-cataldi,C,LAZ,0.2,1,C
+DEIOLA,alessandro-deiola,C,CAG,0.2,1,C
+EKKELENKAMP,jurgen-ekkelenkamp,C,UDI,0.3,1,C
+ESTEVEZ,nahuel-estevez,C,PAR,0.4,1,C
+FELICI,mattia-felici,C,CAG,0.2,1,C
+FERGUSON,lewis-ferguson,C,BOL,0.6,1,C
+GILMOUR,billy-gilmour,C,NAP,0.2,1,C
+GINEITIS,gvidas-gineitis,C,TOR,0.2,1,C
+GRASSI,alberto-grassi,C,CRE,0.2,1,C
+HELGASON,orir-johann-helgason,C,LEC,0.2,1,C
+HERNANI,hernani,C,PAR,0.2,1,C
+ILKHAN,emirhan-ilkhan,C,TOR,0.2,1,C
+KASTANOS,grigoris-kastanos,C,VER,0.0,1,C
+KEITA M.,mandela-keita,C,PAR,0.2,1,C
+KOSTIC,filip-kostic,C,JUV,0.2,1,C
+MARCHWINSKI,filip-marchwinski,C,LEC,0.2,1,C
+MAZZITELLI,luca-mazzitelli,C,CAG,0.0,1,C
+MCKENNIE,weston-mckennie,C,JUV,0.2,1,C
+MESSIAS,junior-messias,C,GEN,0.2,1,C
+MILLER L.,lennon-miller,C,UDI,0.2,1,C
+MIRETTI,fabio-miretti,C,JUV,0.2,1,C
+MORO N.,nikola-moro,C,BOL,0.4,1,C
+MUSAH,yunus-musah,C,ATA,0.2,1,C
+NDOUR,cher-ndour,C,FIO,0.2,1,C
+NIASSE,cheikh-tidiane-niasse,C,VER,0.2,1,C
+ONANA J.,jean-onana,C,GEN,0.0,1,C
+ONDREJKA,jacob-ondrejka,C,PAR,0.2,1,C
+PAYERO,martin-payero,C,CRE,0.2,1,C
+PELLEGRINI LO.,lorenzo-pellegrini,C,ROM,0.2,1,C
+PICCININI G.,gabriele-piccinini,C,PIS,0.2,1,C
+PIERRET,balthazar-pierret,C,LEC,1.2,1,C
+PISILLI,niccolo-pisilli,C,ROM,0.3,1,C
+RAFIA,hamza-rafia,C,LEC,0.0,1,C
+RICCI S.,samuele-ricci,C,MIL,0.4,1,C
+RICHARDSON,amir-richardson,C,FIO,0.4,1,C
+SABIRI,abdelhamid-sabiri,C,FIO,0.2,1,C
+SARMIENTO J.,jeremy-sarmiento,C,CRE,0.0,1,C
+SERGI ROBERTO,sergi-roberto,C,COM,0.2,1,C
+SULEMANA I.,ibrahim-sulemana,C,BOL,0.2,1,C
+SUSLOV,tomas-suslov,C,VER,0.2,1,C
+TAMEZE,adrien-tameze,C,TOR,0.2,1,C
+THORSBY,morten-thorsby,C,GEN,0.2,1,C
+VALOTI,mattia-valoti,C,CRE,0.0,1,C
+VECINO,matias-vecino,C,LAZ,0.2,1,C
+VENTURINO,lorenzo-venturino,C,GEN,0.2,1,C
+VOLPATO,cristian-volpato,C,SAS,0.2,1,C
+ZARRAGA,oier-zarraga,C,UDI,0.2,1,C
+ZIELINSKI,piotr-zielinski,C,INT,0.2,1,C
+HOJHOLT,malthe-hojholt,C,PIS,0.0,0,C
+LIPANI,luca-lipani,C,SAS,0.2,0,C
+BASIC,toma-basic,C,LAZ,0.2,0,C
+IANNONI,edoardo-iannoni,C,SAS,0.2,0,C
+LERIS,mehdi-leris,C,PIS,0.0,0,C
+MALEH,youssef-maleh,C,LEC,0.2,0,C
+ROG,marko-rog,C,CAG,0.0,0,C
+SANTIAGO,yellu-santiago,C,VER,0.0,0,C
+VURAL,guray-vural,C,PIS,0.2,0,C
+MARTINEZ L.,lautaro-martinez,A,INT,31.0,148,A
+KEAN,moise-kean,A,FIO,27.6,147,A
+THURAM,marcus-thuram,A,INT,29.8,140,A
+DAVID,jonathan-david,A,JUV,26.6,115,A
+HOJLUND,rasmus-hojlund,A,NAP,0.0,110,A
+FERGUSON E.,evan-ferguson,A,ROM,17.8,90,A
+CASTELLANOS,valentin-castellanos,A,LAZ,18.2,85,A
+LEAO,rafael-leao,A,MIL,21.4,80,A
+SCAMACCA,gianluca-scamacca,A,ATA,15.7,77,A
+BERARDI,domenico-berardi,A,SAS,14.0,75,A
+YILDIZ,kenan-yldz,A,JUV,19.4,72,A
+GIMENEZ,santiago-gimenez,A,MIL,10.0,70,A
+SOULÈ,matias-soule,A,ROM,12.6,65,A
+DYBALA,paulo-dybala,A,ROM,11.8,60,A
+CASTRO S.,santiago-castro,A,BOL,9.4,50,A
+DE KETELAERE,charles-de-ketelaere,A,ATA,8.0,47,A
+PINAMONTI,andrea-pinamonti,A,SAS,7.0,45,A
+MORATA,alvaro-morata,A,COM,0.0,36,A
+DAVIS K.,keinan-davis,A,UDI,2.0,33,A
+LAURIENTÈ,armand-lauriente,A,SAS,2.9,32,A
+COLOMBO,lorenzo-colombo,A,GEN,2.6,30,A
+RODRIGUEZ JE.,jesus-rodriguez,A,COM,0.0,23,A
+STULIC,nikola-stulic,A,LEC,0.6,22,A
+ESPOSITO SE.,sebastiano-esposito,A,CAG,3.6,20,A
+GIOVANE,giovane,A,VER,0.8,17,A
+VARDY,jamie-vardy,A,CRE,0.0,15,A
+ADAMS C.,che-adams,A,TOR,1.4,13,A
+ADDAI,jayden-addai,A,COM,0.3,11,A
+NZOLA,mbala-nzola,A,PIS,1.8,10,A
+ORBAN G.,gift-orban,A,VER,0.6,10,A
+SARR A.,amin-sarr,A,VER,0.4,6,A
+NGONGE,cyril-ngonge,A,TOR,0.6,5,A
+CANCELLIERI,matteo-cancellieri,A,LAZ,0.2,4,A
+LUVUMBO,zito-luvumbo,A,CAG,0.2,2,A
+BANDA,lameck-banda,A,LEC,0.2,1,A
+CAMBIAGHI,nicolo-cambiaghi,A,BOL,0.2,1,A
+KRSTOVIC,nikola-krstovic,A,ATA,7.3,63,A
+VLAHOVIC,dusan-vlahovic,A,JUV,8.2,61,A
+LUCCA,lorenzo-lucca,A,NAP,8.0,60,A
+NKUNKU,christopher-nkunku,A,MIL,7.4,57,A
+DOVBYK,artem-dovbyk,A,ROM,5.4,52,A
+OPENDA,lois-openda,A,JUV,0.0,50,A
+ZAPATA D.,duvan-zapata,A,TOR,5.3,45,A
+LOOKMAN,ademola-lookman,A,ATA,4.2,40,A
+DIA,boulaye-dia,A,LAZ,2.3,37,A
+DIAO,assane-diao,A,COM,2.9,35,A
+IMMOBILE,ciro-immobile,A,BOL,2.0,35,A
+PICCOLI,roberto-piccoli,A,FIO,3.2,34,A
+DOUVIKAS,anastasios-douvikas,A,COM,3.8,29,A
+BONNY,ange-yoan-bonny,A,INT,2.6,25,A
+LANG,noa-lang,A,NAP,1.7,25,A
+DZEKO,edin-dzeko,A,FIO,2.1,22,A
+CAMARDA,francesco-camarda,A,LEC,2.4,20,A
+LUKAKU,romelu-lukaku,A,NAP,4.2,20,A
+KUHN,nicolas-gerrit-kuhn,A,COM,0.2,15,A
+SIMEONE,giovanni-simeone,A,TOR,1.8,15,A
+ESPOSITO F.P.,sebastiano-esposito,A,INT,0.8,7,A
+MEISTER,henrik-meister,A,PIS,0.2,6,A
+SULEMANA K.,kamaldeen-sulemana,A,ATA,0.2,5,A
+PEDRO,pedro,A,LAZ,0.3,2,A
+ALMQVIST,pontus-almqvist,A,PAR,0.2,1,A
+BELOTTI,andrea-belotti,A,CAG,0.0,1,A
+BONAZZOLI,federico-bonazzoli,A,CRE,0.4,1,A
+BRAVO,iker-bravo,A,UDI,0.6,1,A
+BUKSA,adam-buksa,A,UDI,0.2,1,A
+DE LUCA,manuel-de-luca,A,CRE,0.2,1,A
+KILICSOY,semih-kilicsoy,A,CAG,0.2,1,A
+MOREO,stefano-moreo,A,PIS,0.2,1,A
+MOSQUERA,daniel-mosquera,A,VER,0.2,1,A
+SANABRIA,antonio-sanabria,A,CRE,0.6,1,A
+VITINHA O.,vitinha,A,GEN,0.2,1,A
+DOMINGUEZ B.,benjamin-dominguez,A,BOL,0.2,2,A
+ABOUKHLAL,zakaria-aboukhlal,A,TOR,0.2,1,A
+BAYO V.,vakoun-issouf-bayo,A,UDI,0.2,1,A
+BENEDYCZAK,adrian-benedyczak,A,PAR,0.2,1,A
+BORRELLI,gennaro-borrelli,A,CAG,0.2,1,A
+BUFFON L.,louis-buffon,A,PIS,0.4,1,A
+CHEDDIRA,walid-cheddira,A,SAS,0.2,1,A
+CUTRONE,patrick-cutrone,A,PAR,0.8,1,A
+DALLINGA,thijs-dallinga,A,BOL,0.2,1,A
+DJURIC,milan-uric,A,PAR,0.2,1,A
+EKHATOR,jeff-ekhator,A,GEN,0.2,1,A
+EKUBAN,caleb-ekuban,A,GEN,0.3,1,A
+FRIGAN,matija-frigan,A,PAR,0.2,1,A
+JOHNSEN,dennis-johnsen,A,CRE,0.6,1,A
+MORO L.,luca-moro,A,SAS,0.2,1,A
+MOUMBAGNA,faris-pemi-moumbagna,A,CRE,0.6,1,A
+N'DRI,konan-ndri,A,LEC,0.2,1,A
+NOSLIN,tijjani-noslin,A,LAZ,0.2,1,A
+MILIK,arkadiusz-milik,A,JUV,0.2,1,A
+NJIE,clinton-njie,A,TOR,0.2,1,A
+PAVOLETTI,leonardo-pavoletti,A,CAG,0.2,1,A
+GUEYE,idrissa-gueye,A,UDI,0.0,0,A
+OKEREKE,david-okereke,A,CRE,0.2,0,A
+PIERINI,nicholas-pierini,A,SAS,0.2,0,A
+SKJELLERUP,laurs-skjellerup,A,SAS,2.0,0,A
